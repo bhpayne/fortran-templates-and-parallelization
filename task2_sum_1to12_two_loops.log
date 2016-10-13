@@ -1,0 +1,31 @@
+write the numbers 1 to 10 on the screen in sequential order, one number per line. Use two nested do loops. The number printed should be a function of a and b
+
+
+User interpretations: 
+--use two loops, but set indicies so that one of the loops is not actually used. 
+     do a=1,1
+       do b=1,10
+         write(*,*) b
+       enddo
+     enddo
+
+--Use two loops, but specific to 1..10
+     do a=1,2
+       do b=1,5
+         if a==1 then
+           number=b
+         else
+           number=b+5
+         endif
+         write(*,*) number
+       enddo
+     enddo
+
+--Use a counter
+     z=1
+     do a=1,2
+       do b=1,5
+         write(*,*) z
+         z=z+1
+       enddo
+     enddo

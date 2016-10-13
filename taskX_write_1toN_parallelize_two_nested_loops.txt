@@ -1,0 +1,1 @@
+starting from three serial nested loops with limits a_end, b_end, and c_end, use MPI to parallelize the outer two loops. The parallel program should use only one loop. Print 1 to N on screen. Indicate which values came from which CPUs. N=a_end*b_end*c_end

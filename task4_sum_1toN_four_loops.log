@@ -1,0 +1,5 @@
+write the numbers 1 to N on the screen in sequential order, one number per line, where N is the product of four integers. Use a four nested do loops.
+
+[by this point, users should be able to see the pattern for an arbitrary number of loops]
+
+User interpretations: 

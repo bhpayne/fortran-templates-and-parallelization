@@ -1,0 +1,4 @@
+write the numbers 1 to 10 on the screen, one number per line. Use a do loop.
+
+
+User interpretations: write the numbers out of order (algorithm used results in out of order sequence and is specific to 1..10)

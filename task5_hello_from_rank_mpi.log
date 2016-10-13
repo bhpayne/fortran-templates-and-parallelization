@@ -1,0 +1,5 @@
+print the statement
+"hello from rank I of N CPUs"
+to the screen, where I is the rank of the CPU and N is the number of CPUs
+
+User interpretations: 
